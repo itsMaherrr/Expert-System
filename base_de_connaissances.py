@@ -5,5 +5,3 @@ class BC :
         pass
     baseDeFaits = BF()
     baseDeRegles = BR()
-    def restriction(self, goal, brState, bfState):
-        pass
