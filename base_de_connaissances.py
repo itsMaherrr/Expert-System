@@ -6,7 +6,7 @@ class BC :
             self.baseDeFaits = BF()
         else :
             self.baseDeFaits = bf
-        if (bf == -1):
+        if (br == -1):
             self.baseDeRegles = BR()
         else :
             self.baseDeRegles = br
