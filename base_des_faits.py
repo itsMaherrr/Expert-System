@@ -1,5 +1,6 @@
 class BF :
-    def __int__(self):
-        pass
-    baseDeFaits = {"pommes", "oeufs", "poires", "abricots", "farine", "beurre", "sucre", "sel"}
-    """baseDeFaits = {"D", "O", "G"}"""
+    def __init__(self, bf=-1):
+        if(bf == -1):
+            self.baseDeFaits = {}
+        else :
+            self.baseDeFaits = bf

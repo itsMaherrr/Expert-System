@@ -1,0 +1,46 @@
+Cycle : 1
+But : m
+Ensemble de Conflit : ['R2', 'R3', 'R8']
+On declanche R2
+LDP : ['p', 's']
+Cycle : 2
+But : p
+Ensemble de Conflit : ['R7', 'R9']
+On declanche R7
+LDP : ['o']
+Cycle : 3
+But : o
+o est dans la base des faits
+Cycle : 4
+But : s
+Ensemble de Conflit : []
+echec
+backtracking vers Cycle 1, on declanche R3
+LDP : ['r', 'o']
+Cycle : 5
+But : r
+Ensemble de Conflit : ['R1']
+On declanche R1
+LDP : ['p', 'q', 'n']
+Cycle : 6
+But : p
+Ensemble de Conflit : ['R7', 'R9']
+On declanche R7
+LDP : ['o']
+Cycle : 7
+But : o
+o est dans la base des faits
+Cycle : 8
+But : q
+Ensemble de Conflit : ['R5']
+On declanche R5
+LDP : ['p']
+Cycle : 9
+But : p
+p est dans la base des faits
+Cycle : 10
+But : n
+n est dans la base des faits
+Cycle : 11
+But : o
+o est dans la base des faits
